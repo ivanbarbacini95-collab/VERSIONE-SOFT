@@ -35,7 +35,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          rsync -a --exclude='.git' _official_snapshot/ .
+          rsync -a --exclude='.git' --exclude='.github' _official_snapshot/ .
           rm -rf _official_snapshot
           rm -f Test
           python3 .soft/install.py
