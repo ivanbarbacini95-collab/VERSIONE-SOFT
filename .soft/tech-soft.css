@@ -1,0 +1,313 @@
+/* INJ NODE — TECH SOFT / 02 NOV 2026
+   UI-only skin. All existing Injective, portfolio, trading,
+   market and reward data flows remain owned by the original application. */
+html[data-inj-soft="true"] {
+  --soft-ink:#071419;
+  --soft-ink-raised:#0d2026;
+  --soft-surface:#11252b;
+  --soft-surface-2:#152d32;
+  --soft-tint:rgba(121,220,203,.075);
+  --soft-white:#e9f6f5;
+  --soft-muted:#8baaaa;
+  --soft-line:rgba(147,217,214,.14);
+  --soft-accent:#83decb;
+  --soft-positive:#83d7b2;
+  --soft-negative:#ef929e;
+  --soft-shadow:0 14px 40px rgba(0,0,0,.11);
+  --soft-radius:19px;
+  --bg:var(--soft-ink);
+  --theme-canvas:var(--soft-ink);
+  --surface:var(--soft-surface);
+  --surface-strong:var(--soft-surface-2);
+  --text:var(--soft-white);
+  --muted:var(--soft-muted);
+  --muted-strong:#bad1cf;
+  --line:var(--soft-line);
+  --accent:var(--soft-accent);
+  --positive:var(--soft-positive);
+  --negative:var(--soft-negative);
+  background:var(--soft-ink)!important;
+  color-scheme:dark;
+  scroll-behavior:smooth;
+  font-synthesis:none;
+}
+html[data-inj-soft="true"][data-theme="black"]{--soft-ink:#070d11;--soft-surface:#10191e;--soft-surface-2:#17232a;--soft-accent:#9bdfd7}
+html[data-inj-soft="true"][data-theme="velvet"]{--soft-ink:#101321;--soft-surface:#1a2030;--soft-surface-2:#242a40;--soft-accent:#b2bcf5;--soft-line:rgba(185,191,244,.18)}
+html[data-inj-soft="true"][data-theme="amber"]{--soft-ink:#151a1c;--soft-surface:#202a2b;--soft-surface-2:#283333;--soft-accent:#e0bf8d}
+html[data-inj-soft="true"][data-theme="ocean-x-solar"]{--soft-ink:#171721;--soft-surface:#22232f;--soft-surface-2:#2d2b39;--soft-accent:#e0add2}
+html[data-inj-soft="true"][data-theme="light"] {
+  --soft-ink:#eef5f4;--soft-ink-raised:#f6fafa;--soft-surface:#ffffff;--soft-surface-2:#e7f2f0;
+  --soft-white:#17333a;--soft-muted:#637f83;--soft-line:rgba(33,90,91,.15);
+  --soft-accent:#087f79;--soft-tint:rgba(22,132,122,.055);
+  --soft-shadow:0 15px 38px rgba(39,81,85,.065);
+  --soft-positive:#247e63;--soft-negative:#b34859;
+  color-scheme:light;
+}
+html[data-inj-soft="true"] body {
+  background:
+    radial-gradient(ellipse 72vw 49vh at 84% -6%,color-mix(in srgb,var(--soft-accent) 9%,transparent),transparent 78%),
+    radial-gradient(ellipse 49vw 38vh at -19% 85%,color-mix(in srgb,var(--soft-accent) 4%,transparent),transparent 84%),
+    var(--soft-ink)!important;
+  background-attachment:fixed!important;
+  color:var(--soft-white)!important;
+  font-family:var(--inj-chosen-face,"Inter","SF Pro Display",system-ui,-apple-system,sans-serif)!important;
+  font-optical-sizing:auto;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+  letter-spacing:-.012em;
+}
+html[data-inj-soft="true"] :is(h1,h2,h3,h4,h5,h6,.inj-location-name,.inj-location-section) {
+  font-family:var(--inj-chosen-face,"Inter",system-ui,sans-serif)!important;
+  font-weight:var(--inj-chosen-heading,620)!important;
+  letter-spacing:-.04em!important;
+  text-wrap:balance;
+}
+html[data-inj-soft="true"] :is(p,small,span,button,input,select,textarea) {font-family:inherit}
+html[data-inj-soft="true"] :is([class*="kicker"],[class*="eyebrow"],[class*="-label"],[class*="-meta"]) {
+  letter-spacing:.035em;
+}
+html[data-inj-soft="true"] :is(.price,.value,[class$="-value"],[class$="-price"],[class*="metric-value"],[class*="-amount"]) {
+  font-variant-numeric:tabular-nums lining-nums;
+}
+html[data-inj-soft="true"] :is(.header,.terminal-header,.treasury-header,.rewards-header,.cap-header,.cc-topbar,.book-topbar,.ws-header,.freedom-header,.admin-topnav) {
+  border-bottom:1px solid var(--soft-line)!important;
+  box-shadow:none!important;
+  background:color-mix(in srgb,var(--soft-ink) 89%,transparent)!important;
+  -webkit-backdrop-filter:blur(18px) saturate(115%);
+  backdrop-filter:blur(18px) saturate(115%);
+}
+html[data-inj-soft="true"] :is(.shell,.treasury-shell,.rewards-shell,.cap-shell,.cc-shell,.book-shell,.live-page,.freedom-page,.ws-header) {
+  color:var(--soft-white);
+  max-width:100%;
+}
+html[data-inj-soft="true"] :is(.entry-action,.data-card,.metric-card,.treasury-panel,.treasury-metric,.rewards-list-panel,.rewards-total-panel,.cap-panel,.cc-panel,.freedom-hero,.freedom-section,.freedom-overview,.ws-tile,.ws-widget,.ws-empty,.pro-panel,.inj-mi-snapshot article,.inj-world-section,.inj-wm-grid,.indicator-panel) {
+  background:linear-gradient(155deg,
+    color-mix(in srgb,var(--soft-surface) 94%,var(--soft-accent) 6%),
+    var(--soft-surface) 77%)!important;
+  color:var(--soft-white)!important;
+  border:1px solid var(--soft-line)!important;
+  border-radius:var(--soft-radius)!important;
+  box-shadow:var(--soft-shadow)!important;
+  -webkit-backdrop-filter:none!important;
+  backdrop-filter:none!important;
+}
+html[data-inj-soft="true"] :is(.treasury-panel,.cap-panel,.cc-panel,.freedom-section,.rewards-list-panel,.rewards-total-panel,.pro-panel) {
+  overflow:clip;
+}
+html[data-inj-soft="true"] :is(.entry-action,.data-card,.treasury-panel,.cap-panel,.cc-panel,.ws-widget,.ws-tile,.inj-world-section) {
+  transition:border-color .25s ease,background-color .25s ease,transform .25s ease,box-shadow .25s ease!important;
+}
+@media(hover:hover) and (pointer:fine){
+  html[data-inj-soft="true"] :is(.entry-action,.data-card,.ws-tile,.cap-panel):hover{
+    border-color:color-mix(in srgb,var(--soft-accent) 42%,var(--soft-line))!important;
+    transform:translateY(-2px);
+    box-shadow:0 19px 45px rgba(0,0,0,.15)!important;
+  }
+}
+html[data-inj-soft="true"] :is(.entry-action-icon,.menu-action-icon,.header-main-button,.icon-button,.home,.back-button,.treasury-close,.rewards-close,.cap-home,.cc-back,.book-topbar .back-button,.ws-home,.freedom-close) {
+  background:var(--soft-tint)!important;
+  border:1px solid var(--soft-line)!important;
+  border-radius:12px!important;
+  color:var(--soft-accent)!important;
+  box-shadow:none!important;
+}
+html[data-inj-soft="true"] :is(.entry-action,.menu-action,.inj-bottom-tab,.timeframe,.inj-mi-tabs button,.market-tab) svg {
+  filter:none!important;
+}
+html[data-inj-soft="true"] :is(button,[role="button"],input,select,textarea) {
+  -webkit-tap-highlight-color:transparent;
+}
+html[data-inj-soft="true"] :is(button,[role="button"],a,input,select,textarea):focus-visible {
+  outline:2px solid var(--soft-accent)!important;outline-offset:3px!important;
+}
+html[data-inj-soft="true"] :is(input,select,textarea,[contenteditable="true"]) {
+  background:color-mix(in srgb,var(--soft-surface-2) 88%,transparent)!important;
+  border:1px solid var(--soft-line)!important;
+  border-radius:12px!important;
+  color:var(--soft-white)!important;
+  box-shadow:none!important;
+  min-height:40px;
+}
+html[data-inj-soft="true"] input::placeholder,
+html[data-inj-soft="true"] textarea::placeholder{color:var(--soft-muted)!important;opacity:.78}
+html[data-inj-soft="true"] :is(button,.timeframe,.inj-mi-tabs button,.market-tab,.ws-primary) {
+  transition:background-color .22s ease,border-color .22s ease,color .22s ease,transform .22s ease!important;
+}
+html[data-inj-soft="true"] :is(button.active,button[aria-pressed="true"],button[aria-selected="true"],.timeframe.active,.market-tab.active) {
+  border-color:color-mix(in srgb,var(--soft-accent) 53%,var(--soft-line))!important;
+  color:var(--soft-accent)!important;
+}
+html[data-inj-soft="true"] :is(.live,.rewards-live,.rewards-head-status,.ws-connection,.connection-pill,.inj-mi-update,.freedom-live) {
+  border:1px solid color-mix(in srgb,var(--soft-accent) 28%,var(--soft-line))!important;
+  background:var(--soft-tint)!important;
+  border-radius:999px!important;
+  box-shadow:none!important;
+  font-size:clamp(9px,1.5vw,11px);
+}
+html[data-inj-soft="true"] :is(.live i,.rewards-live i,.sync i,.connection-pill i) {
+  background:var(--soft-positive)!important;
+  box-shadow:0 0 0 3px color-mix(in srgb,var(--soft-positive) 12%,transparent)!important;
+}
+html[data-inj-soft="true"] :is(.positive,.up,.gain){color:var(--soft-positive)}
+html[data-inj-soft="true"] :is(.negative,.down,.loss){color:var(--soft-negative)}
+/* HOME / PRO — same visual principles as the independent Lite experience */
+html[data-inj-soft="true"] #entryGate .entry-gate-shell:not(.first-access) {
+  background:none!important;
+  box-shadow:none!important;
+}
+html[data-inj-soft="true"] #entryGate .entry-actions.entry-flat-v44{
+  gap:clamp(9px,2vw,14px)!important;
+}
+html[data-inj-soft="true"] #entryGate .entry-action{
+  min-height:90px!important;
+  padding:clamp(12px,2vw,19px)!important;
+  border-radius:18px!important;
+  background:linear-gradient(135deg,color-mix(in srgb,var(--soft-surface) 96%,var(--soft-accent) 4%),var(--soft-surface))!important;
+  overflow:hidden!important;
+}
+html[data-inj-soft="true"] #entryGate :is(.entry-action strong,.inj-home-tile-title){
+  font-size:clamp(12px,1.4vw,15px)!important;
+  font-weight:var(--inj-chosen-detail,550)!important;
+  letter-spacing:-.02em!important;
+}
+html[data-inj-soft="true"] #entryGate .entry-action .entry-action-icon{
+  width:40px!important;height:40px!important;min-width:40px!important;
+  background:var(--soft-tint)!important;box-shadow:none!important;
+  border-radius:13px!important;color:var(--soft-accent)!important;
+}
+html[data-inj-soft="true"] #entryGate .entry-action :is(.inj-tile-description,.entry-action-arrow){
+  color:var(--soft-muted)!important;
+}
+html[data-inj-soft="true"] #entryGate :is(.entry-overview,.entry-spark-stage,.entry-overview-stats,.entry-price-pnl) {
+  box-shadow:none!important;
+}
+html[data-inj-soft="true"] #entryGate :is(.entry-overview-stats,.entry-desktop-metrics) {
+  gap:12px!important;
+}
+html[data-inj-soft="true"] #entryGate :is(.entry-price,.entry-overview-value,.entry-price-number){
+  font-variant-numeric:tabular-nums!important;
+  letter-spacing:-.045em!important;
+}
+html[data-inj-soft="true"] body > #injPrimaryBottomNav {
+  border:1px solid var(--soft-line)!important;
+  border-radius:22px!important;
+  background:color-mix(in srgb,var(--soft-surface) 90%,transparent)!important;
+  -webkit-backdrop-filter:blur(22px) saturate(125%)!important;
+  backdrop-filter:blur(22px) saturate(125%)!important;
+  box-shadow:0 10px 32px rgba(0,0,0,.16)!important;
+}
+html[data-inj-soft="true"] body > #injPrimaryBottomNav :is(.inj-bottom-tab,.inj-bottom-tab-label) {
+  color:var(--soft-muted)!important;
+  text-shadow:none!important;filter:none!important;
+}
+html[data-inj-soft="true"] body > #injPrimaryBottomNav :is(.inj-bottom-tab.active,.inj-bottom-tab[aria-current="page"]) {
+  background:var(--soft-tint)!important;color:var(--soft-accent)!important;
+}
+html[data-inj-soft="true"] :is(.menu-panel,.menu-sheet,.settings-panel,.entry-menu-panel,.menu-overlay,.inj-menu-panel) {
+  background:var(--soft-ink-raised)!important;
+  color:var(--soft-white)!important;
+  border-color:var(--soft-line)!important;
+  box-shadow:0 25px 60px rgba(0,0,0,.28)!important;
+}
+html[data-inj-soft="true"] :is(.menu-action,.menu-setting,.menu-control) {
+  border-bottom:1px solid var(--soft-line)!important;
+  box-shadow:none!important;
+}
+html[data-inj-soft="true"] :is(.menu-action:hover,.menu-setting:hover){background:var(--soft-tint)!important}
+/* LITE — protect its dynamic SVG chart, tooltip, live wallet and navigation. */
+html[data-inj-soft="true"] body #injLightHome .inj-light-screen{
+  max-width:900px!important;
+  background:
+    radial-gradient(ellipse 70% 37% at 83% -12%,color-mix(in srgb,var(--soft-accent) 12%,transparent),transparent 86%),
+    linear-gradient(160deg,var(--soft-ink-raised),var(--soft-ink) 64%)!important;
+}
+html[data-inj-soft="true"] body #injLightHome :is(.inj-light-walletbar,.inj-light-values>div+div,.inj-light-chart){
+  border-color:var(--soft-line)!important;
+}
+html[data-inj-soft="true"] body #injLightHome :is(.inj-light-brand,.inj-light-value) {
+  color:var(--soft-white)!important;
+}
+html[data-inj-soft="true"] body #injLightHome :is(.inj-light-eyebrow,.inj-light-meta,.inj-light-kicker) {
+  color:var(--soft-muted)!important;
+}
+html[data-inj-soft="true"] body #injLightHome :is(#injLightModeToggle,button){
+  box-shadow:none!important;
+}
+/* MARKET — high contrast data, subdued chrome, preserve price heatmaps. */
+html[data-inj-soft="true"] :is(.inj-mi-tabs,.inj-market-tabs,.market-tabs,.inj-market-nav,.timeframe-bar,.treasury-chart-ranges) {
+  background:color-mix(in srgb,var(--soft-surface) 80%,transparent)!important;
+  border:1px solid var(--soft-line)!important;
+  border-radius:15px!important;
+  box-shadow:none!important;
+}
+html[data-inj-soft="true"] :is(.inj-mi-tabs,.inj-market-tabs,.market-tabs,.inj-market-nav) {
+  scrollbar-width:none;
+}
+html[data-inj-soft="true"] :is(.inj-mi-tabs,.inj-market-tabs,.market-tabs,.inj-market-nav)::-webkit-scrollbar{display:none}
+html[data-inj-soft="true"] :is(.inj-world-section,.inj-mi-snapshot article,.inj-wm-grid,.cap-panel) {
+  background:var(--soft-surface)!important;
+}
+html[data-inj-soft="true"] :is(.market-ticker,.market-ticker-viewport,.market-ticker-track) {
+  border-color:var(--soft-line)!important;
+  box-shadow:none!important;
+}
+html[data-inj-soft="true"] :is(.market-ticker,.inj-world-ticker,.entry-market-ticker) {
+  background:color-mix(in srgb,var(--soft-surface) 87%,transparent)!important;
+}
+html[data-inj-soft="true"] :is(.inj-wm-section-head,.inj-mi-hero,.treasury-chart-summary,.rewards-list-head,.cc-section-head) {
+  border-color:var(--soft-line)!important;
+}
+html[data-inj-soft="true"] :is(.inj-mi-highlight,.market-price,.rewards-total-value,.treasury-chart-primary,.cc-rows-strong) {
+  color:var(--soft-white)!important;
+  text-shadow:none!important;
+}
+html[data-inj-soft="true"] :is(.inj-wm-tile,.inj-wm-cell,.crypto-row,.market-ticker-item,.book-row,.levels > *) {
+  box-shadow:none!important;
+}
+/* Charts and canvas are not recolored: their existing live data and semantic
+   price-direction colors remain untouched. */
+html[data-inj-soft="true"] :is(canvas,svg.chart,svg[class*="spark"],.market-heatmap-live){
+  filter:none;
+}
+html[data-inj-soft="true"] :is(.treasury-chart-overlay,.rewards-total-orbit,.indicator-panel,.cap-bar-track) {
+  border-color:var(--soft-line)!important;
+}
+/* Responsive — no forced zoom, preserve native vertical scrolling. */
+html[data-inj-soft="true"],html[data-inj-soft="true"] body{
+  overflow-x:clip;
+}
+html[data-inj-soft="true"] :is(.entry-gate-shell,.treasury-main,.rewards-main,.freedom-page,.cap-shell,.ws-grid) {
+  min-width:0;
+}
+html[data-inj-soft="true"] :is(.treasury-panel,.cap-panel,.cc-panel,.freedom-section,.rewards-list-panel) {
+  min-width:0;
+}
+@media(max-width:720px){
+  html[data-inj-soft="true"] {
+    --soft-radius:16px;
+    --soft-shadow:0 9px 22px rgba(0,0,0,.08);
+  }
+  html[data-inj-soft="true"] :is(.treasury-panel,.cap-panel,.cc-panel,.freedom-section,.rewards-list-panel) {
+    border-radius:16px!important;
+  }
+  html[data-inj-soft="true"] #entryGate .entry-action {
+    min-height:78px!important;
+    padding:13px!important;
+  }
+  html[data-inj-soft="true"] :is(.treasury-shell,.rewards-shell,.cap-shell,.cc-shell,.freedom-page,.live-page) {
+    width:100%!important;
+  }
+}
+@media(min-width:1100px){
+  html[data-inj-soft="true"] :is(.treasury-shell,.rewards-shell,.cap-shell,.cc-shell,.freedom-page) {
+    margin-inline:auto;
+  }
+}
+@media(prefers-reduced-motion:reduce){
+  html[data-inj-soft="true"],html[data-inj-soft="true"] *{
+    scroll-behavior:auto!important;
+    transition-duration:.01ms!important;
+    animation-duration:.01ms!important;
+    animation-iteration-count:1!important;
+  }
+}
