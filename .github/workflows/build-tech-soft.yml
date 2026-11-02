@@ -1,0 +1,64 @@
+name: Build INJ Node Tech Soft
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".soft/**"
+      - ".github/workflows/build-tech-soft.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: inj-node-tech-soft-build
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout VERSIONE-SOFT
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Checkout pinned INJ Node Official source
+        uses: actions/checkout@v4
+        with:
+          repository: ivanbarbacini95-collab/INJ-VERSIONE-UFFICIALE
+          ref: f64aea751dc86dbbe0b071983924f41494f35c92
+          path: _official_snapshot
+          persist-credentials: false
+
+      - name: Import full application and install Soft design
+        shell: bash
+        run: |
+          set -euo pipefail
+          rsync -a --exclude='.git' _official_snapshot/ .
+          rm -rf _official_snapshot
+          rm -f Test
+          python3 .soft/install.py
+          test -f app.js
+          test -f market.html
+          test -f treasury.html
+          test -f live-rewards.html
+          test -f manifest.webmanifest
+          grep -q 'tech-soft.css' index.html
+          grep -q 'tech-soft.css' market.html
+          grep -q 'tech-soft.css' treasury.html
+          echo "HTML files in build: $(find . -maxdepth 1 -name '*.html' | wc -l)"
+
+      - name: Publish complete Tech Soft edition on main
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to publish"
+            exit 0
+          fi
+          git commit -m "feat: full INJ Node Tech Soft edition [skip ci]"
+          git push origin HEAD:main
