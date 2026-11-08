@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-08T18:54:47.447Z",
+  "generatedAt": "2026-11-08T22:42:03.665Z",
   "type": "static-snapshot",
   "groups": {
     "sectors": {
@@ -184,7 +184,7 @@
       ],
       "available": 16,
       "fresh": 16,
-      "updatedAt": "2026-11-08T18:54:47.712Z",
+      "updatedAt": "2026-11-08T22:42:03.897Z",
       "source": "CNBC",
       "status": "complete"
     },
@@ -283,8 +283,8 @@
           "name": "Nikkei 225",
           "symbol": "^N225",
           "price": 57434.77,
-          "change": -5.964727012552828,
-          "previous": 61077.9,
+          "change": 0,
+          "previous": 57434.77,
           "time": 1793923200,
           "currency": "",
           "source": "CNBC"
@@ -294,8 +294,8 @@
           "name": "Hang Seng",
           "symbol": "^HSI",
           "price": 24481.86,
-          "change": -1.2707999119247582,
-          "previous": 24796.98,
+          "change": 0,
+          "previous": 24481.86,
           "time": 1793923200,
           "currency": "",
           "source": "CNBC"
@@ -316,8 +316,8 @@
           "name": "ASX 200",
           "symbol": "^AXJO",
           "price": 9020.8,
-          "change": -0.4886873834817118,
-          "previous": 9065.1,
+          "change": 0,
+          "previous": 9020.8,
           "time": 1793923200,
           "currency": "",
           "source": "CNBC"
@@ -391,7 +391,7 @@
       ],
       "available": 18,
       "fresh": 18,
-      "updatedAt": "2026-11-08T18:54:47.723Z",
+      "updatedAt": "2026-11-08T22:42:03.908Z",
       "source": "CNBC",
       "status": "complete"
     },
@@ -1027,7 +1027,289 @@
       ],
       "available": 57,
       "fresh": 57,
-      "updatedAt": "2026-11-08T18:54:47.762Z",
+      "updatedAt": "2026-11-08T22:42:03.974Z",
+      "source": "CNBC",
+      "status": "complete"
+    },
+    "commodities": {
+      "quotes": [
+        {
+          "id": "gold",
+          "name": "Oro",
+          "symbol": "GC=F",
+          "price": 4074.9,
+          "change": 0,
+          "previous": 4074.9,
+          "time": 1794009600,
+          "currency": "",
+          "source": "CNBC"
+        },
+        {
+          "id": "silver",
+          "name": "Argento",
+          "symbol": "SI=F",
+          "price": 51.942,
+          "change": 0,
+          "previous": 51.942,
+          "time": 1794009600,
+          "currency": "",
+          "source": "CNBC"
+        },
+        {
+          "id": "wti",
+          "name": "Petrolio WTI",
+          "symbol": "CL=F",
+          "price": 90.83,
+          "change": 0,
+          "previous": 90.83,
+          "time": 1794009600,
+          "currency": "",
+          "source": "CNBC"
+        },
+        {
+          "id": "brent",
+          "name": "Petrolio Brent",
+          "symbol": "BZ=F",
+          "price": 98.32,
+          "change": 0,
+          "previous": 98.32,
+          "time": 1794009600,
+          "currency": "",
+          "source": "CNBC"
+        },
+        {
+          "id": "gas",
+          "name": "Gas naturale",
+          "symbol": "NG=F",
+          "price": 2.998,
+          "change": 0,
+          "previous": 2.998,
+          "time": 1794009600,
+          "currency": "",
+          "source": "CNBC"
+        },
+        {
+          "id": "copper",
+          "name": "Rame",
+          "symbol": "HG=F",
+          "price": 6.2375,
+          "change": 0,
+          "previous": 6.2375,
+          "time": 1794009600,
+          "currency": "",
+          "source": "CNBC"
+        },
+        {
+          "id": "corn",
+          "name": "Mais",
+          "symbol": "ZC=F",
+          "price": 441.5,
+          "change": 0,
+          "previous": 441.5,
+          "time": 1794009600,
+          "currency": "",
+          "source": "CNBC"
+        },
+        {
+          "id": "platinum",
+          "name": "Platino",
+          "symbol": "PL=F",
+          "price": 1536.9,
+          "change": 0,
+          "previous": 1536.9,
+          "time": 1794009600,
+          "currency": "",
+          "source": "CNBC"
+        },
+        {
+          "id": "palladium",
+          "name": "Palladio",
+          "symbol": "PA=F",
+          "price": 1017.1,
+          "change": 0,
+          "previous": 1017.1,
+          "time": 1794009600,
+          "currency": "",
+          "source": "CNBC"
+        },
+        {
+          "id": "wheat",
+          "name": "Grano",
+          "symbol": "ZW=F",
+          "price": 591.25,
+          "change": 0,
+          "previous": 591.25,
+          "time": 1794009600,
+          "currency": "",
+          "source": "CNBC"
+        },
+        {
+          "id": "soybeans",
+          "name": "Soia",
+          "symbol": "ZS=F",
+          "price": 1193.75,
+          "change": 0,
+          "previous": 1193.75,
+          "time": 1794009600,
+          "currency": "",
+          "source": "CNBC"
+        },
+        {
+          "id": "sugar",
+          "name": "Zucchero",
+          "symbol": "SB=F",
+          "price": 18.24,
+          "change": 0,
+          "previous": 18.24,
+          "time": 1794175205,
+          "currency": "",
+          "source": "CNBC"
+        }
+      ],
+      "available": 12,
+      "fresh": 12,
+      "updatedAt": "2026-11-08T22:42:04.163Z",
+      "source": "CNBC",
+      "status": "complete"
+    },
+    "forex": {
+      "quotes": [
+        {
+          "id": "eurusd",
+          "name": "EUR / USD",
+          "symbol": "EURUSD=X",
+          "price": 1.1137,
+          "change": -0.053845463519708314,
+          "previous": 1.1143,
+          "time": 1794177660,
+          "currency": "",
+          "source": "CNBC"
+        },
+        {
+          "id": "gbpusd",
+          "name": "GBP / USD",
+          "symbol": "GBPUSD=X",
+          "price": 1.3354,
+          "change": 0.03745598921267579,
+          "previous": 1.3349,
+          "time": 1794177660,
+          "currency": "",
+          "source": "CNBC"
+        },
+        {
+          "id": "usdjpy",
+          "name": "USD / JPY",
+          "symbol": "JPY=X",
+          "price": 158.37,
+          "change": -0.050489113284934994,
+          "previous": 158.45,
+          "time": 1794177720,
+          "currency": "",
+          "source": "CNBC"
+        },
+        {
+          "id": "usdchf",
+          "name": "USD / CHF",
+          "symbol": "CHF=X",
+          "price": 0.8194,
+          "change": -0.13406459475928667,
+          "previous": 0.8205,
+          "time": 1794177720,
+          "currency": "",
+          "source": "CNBC"
+        },
+        {
+          "id": "audusd",
+          "name": "AUD / USD",
+          "symbol": "AUDUSD=X",
+          "price": 0.6862,
+          "change": -0.014570887367038043,
+          "previous": 0.6863,
+          "time": 1794177720,
+          "currency": "",
+          "source": "CNBC"
+        },
+        {
+          "id": "usdcny",
+          "name": "USD / CNY",
+          "symbol": "CNY=X",
+          "price": 6.676,
+          "change": 0,
+          "previous": 6.676,
+          "time": 1793977680,
+          "currency": "",
+          "source": "CNBC"
+        },
+        {
+          "id": "usdinr",
+          "name": "USD / INR",
+          "symbol": "INR=X",
+          "price": 93.9,
+          "change": 0,
+          "previous": 93.9,
+          "time": 1793992800,
+          "currency": "",
+          "source": "CNBC"
+        },
+        {
+          "id": "eurgbp",
+          "name": "EUR / GBP",
+          "symbol": "EURGBP=X",
+          "price": 0.8338,
+          "change": -0.023980815347723894,
+          "previous": 0.834,
+          "time": 1794177660,
+          "currency": "",
+          "source": "CNBC"
+        },
+        {
+          "id": "eurjpy",
+          "name": "EUR / JPY",
+          "symbol": "EURJPY=X",
+          "price": 176.38,
+          "change": -0.10194834617127668,
+          "previous": 176.56,
+          "time": 1794177720,
+          "currency": "",
+          "source": "CNBC"
+        },
+        {
+          "id": "nzdusd",
+          "name": "NZD / USD",
+          "symbol": "NZDUSD=X",
+          "price": 0.5559,
+          "change": 0.2524797114517474,
+          "previous": 0.5545,
+          "time": 1794177660,
+          "currency": "",
+          "source": "CNBC"
+        },
+        {
+          "id": "usdcad",
+          "name": "USD / CAD",
+          "symbol": "CAD=X",
+          "price": 1.4122,
+          "change": -0.042468856172150904,
+          "previous": 1.4128,
+          "time": 1794177720,
+          "currency": "",
+          "source": "CNBC"
+        },
+        {
+          "id": "usdsek",
+          "name": "USD / SEK",
+          "symbol": "SEK=X",
+          "price": 9.8813,
+          "change": -0.10008896797153444,
+          "previous": 9.8912,
+          "time": 1794177720,
+          "currency": "",
+          "source": "CNBC"
+        }
+      ],
+      "available": 12,
+      "fresh": 12,
+      "updatedAt": "2026-11-08T22:42:04.193Z",
       "source": "CNBC",
       "status": "complete"
     },
@@ -1190,289 +1472,7 @@
       ],
       "available": 14,
       "fresh": 14,
-      "updatedAt": "2026-11-08T18:54:47.823Z",
-      "source": "CNBC",
-      "status": "complete"
-    },
-    "commodities": {
-      "quotes": [
-        {
-          "id": "gold",
-          "name": "Oro",
-          "symbol": "GC=F",
-          "price": 4074.9,
-          "change": 0,
-          "previous": 4074.9,
-          "time": 1794009600,
-          "currency": "",
-          "source": "CNBC"
-        },
-        {
-          "id": "silver",
-          "name": "Argento",
-          "symbol": "SI=F",
-          "price": 51.942,
-          "change": 0,
-          "previous": 51.942,
-          "time": 1794009600,
-          "currency": "",
-          "source": "CNBC"
-        },
-        {
-          "id": "wti",
-          "name": "Petrolio WTI",
-          "symbol": "CL=F",
-          "price": 90.83,
-          "change": 0,
-          "previous": 90.83,
-          "time": 1794009600,
-          "currency": "",
-          "source": "CNBC"
-        },
-        {
-          "id": "brent",
-          "name": "Petrolio Brent",
-          "symbol": "BZ=F",
-          "price": 98.32,
-          "change": 0,
-          "previous": 98.32,
-          "time": 1794009600,
-          "currency": "",
-          "source": "CNBC"
-        },
-        {
-          "id": "gas",
-          "name": "Gas naturale",
-          "symbol": "NG=F",
-          "price": 2.998,
-          "change": 0,
-          "previous": 2.998,
-          "time": 1794009600,
-          "currency": "",
-          "source": "CNBC"
-        },
-        {
-          "id": "copper",
-          "name": "Rame",
-          "symbol": "HG=F",
-          "price": 6.2375,
-          "change": 0,
-          "previous": 6.2375,
-          "time": 1794009600,
-          "currency": "",
-          "source": "CNBC"
-        },
-        {
-          "id": "corn",
-          "name": "Mais",
-          "symbol": "ZC=F",
-          "price": 441.5,
-          "change": 0,
-          "previous": 441.5,
-          "time": 1794009600,
-          "currency": "",
-          "source": "CNBC"
-        },
-        {
-          "id": "platinum",
-          "name": "Platino",
-          "symbol": "PL=F",
-          "price": 1536.9,
-          "change": 0,
-          "previous": 1536.9,
-          "time": 1794009600,
-          "currency": "",
-          "source": "CNBC"
-        },
-        {
-          "id": "palladium",
-          "name": "Palladio",
-          "symbol": "PA=F",
-          "price": 1017.1,
-          "change": 0,
-          "previous": 1017.1,
-          "time": 1794009600,
-          "currency": "",
-          "source": "CNBC"
-        },
-        {
-          "id": "wheat",
-          "name": "Grano",
-          "symbol": "ZW=F",
-          "price": 591.25,
-          "change": 0,
-          "previous": 591.25,
-          "time": 1794009600,
-          "currency": "",
-          "source": "CNBC"
-        },
-        {
-          "id": "soybeans",
-          "name": "Soia",
-          "symbol": "ZS=F",
-          "price": 1193.75,
-          "change": 0,
-          "previous": 1193.75,
-          "time": 1794009600,
-          "currency": "",
-          "source": "CNBC"
-        },
-        {
-          "id": "sugar",
-          "name": "Zucchero",
-          "symbol": "SB=F",
-          "price": 18.25,
-          "change": -1.6702586206896464,
-          "previous": 18.56,
-          "time": 1794009600,
-          "currency": "",
-          "source": "CNBC"
-        }
-      ],
-      "available": 12,
-      "fresh": 12,
-      "updatedAt": "2026-11-08T18:54:47.832Z",
-      "source": "CNBC",
-      "status": "complete"
-    },
-    "forex": {
-      "quotes": [
-        {
-          "id": "eurusd",
-          "name": "EUR / USD",
-          "symbol": "EURUSD=X",
-          "price": 1.1135,
-          "change": -0.07179395135961109,
-          "previous": 1.1143,
-          "time": 1794163800,
-          "currency": "",
-          "source": "CNBC"
-        },
-        {
-          "id": "gbpusd",
-          "name": "GBP / USD",
-          "symbol": "GBPUSD=X",
-          "price": 1.3357,
-          "change": 0.05992958274028126,
-          "previous": 1.3349,
-          "time": 1794163980,
-          "currency": "",
-          "source": "CNBC"
-        },
-        {
-          "id": "usdjpy",
-          "name": "USD / JPY",
-          "symbol": "JPY=X",
-          "price": 158.38,
-          "change": -0.04417797412432645,
-          "previous": 158.45,
-          "time": 1794164040,
-          "currency": "",
-          "source": "CNBC"
-        },
-        {
-          "id": "usdchf",
-          "name": "USD / CHF",
-          "symbol": "CHF=X",
-          "price": 0.8202,
-          "change": -0.0365630712979903,
-          "previous": 0.8205,
-          "time": 1794163440,
-          "currency": "",
-          "source": "CNBC"
-        },
-        {
-          "id": "audusd",
-          "name": "AUD / USD",
-          "symbol": "AUDUSD=X",
-          "price": 0.6872,
-          "change": 0.1311379863033757,
-          "previous": 0.6863,
-          "time": 1794162960,
-          "currency": "",
-          "source": "CNBC"
-        },
-        {
-          "id": "usdcny",
-          "name": "USD / CNY",
-          "symbol": "CNY=X",
-          "price": 6.676,
-          "change": 0,
-          "previous": 6.676,
-          "time": 1793977680,
-          "currency": "",
-          "source": "CNBC"
-        },
-        {
-          "id": "usdinr",
-          "name": "USD / INR",
-          "symbol": "INR=X",
-          "price": 93.9,
-          "change": 0,
-          "previous": 93.9,
-          "time": 1793992800,
-          "currency": "",
-          "source": "CNBC"
-        },
-        {
-          "id": "eurgbp",
-          "name": "EUR / GBP",
-          "symbol": "EURGBP=X",
-          "price": 0.8335,
-          "change": -0.05995203836929308,
-          "previous": 0.834,
-          "time": 1794163980,
-          "currency": "",
-          "source": "CNBC"
-        },
-        {
-          "id": "eurjpy",
-          "name": "EUR / JPY",
-          "symbol": "EURJPY=X",
-          "price": 176.36,
-          "change": -0.11327594019029386,
-          "previous": 176.56,
-          "time": 1794164040,
-          "currency": "",
-          "source": "CNBC"
-        },
-        {
-          "id": "nzdusd",
-          "name": "NZD / USD",
-          "symbol": "NZDUSD=X",
-          "price": 0.555,
-          "change": 0.0901713255184955,
-          "previous": 0.5545,
-          "time": 1794163860,
-          "currency": "",
-          "source": "CNBC"
-        },
-        {
-          "id": "usdcad",
-          "name": "USD / CAD",
-          "symbol": "CAD=X",
-          "price": 1.413,
-          "change": 0.014156285390720669,
-          "previous": 1.4128,
-          "time": 1794163680,
-          "currency": "",
-          "source": "CNBC"
-        },
-        {
-          "id": "usdsek",
-          "name": "USD / SEK",
-          "symbol": "SEK=X",
-          "price": 9.8957,
-          "change": 0.04549498544159647,
-          "previous": 9.8912,
-          "time": 1794163920,
-          "currency": "",
-          "source": "CNBC"
-        }
-      ],
-      "available": 12,
-      "fresh": 12,
-      "updatedAt": "2026-11-08T18:54:47.914Z",
+      "updatedAt": "2026-11-08T22:42:04.204Z",
       "source": "CNBC",
       "status": "complete"
     },
@@ -1624,7 +1624,7 @@
       ],
       "available": 13,
       "fresh": 13,
-      "updatedAt": "2026-11-08T18:54:47.997Z",
+      "updatedAt": "2026-11-08T22:42:04.266Z",
       "source": "CNBC",
       "status": "complete"
     }
