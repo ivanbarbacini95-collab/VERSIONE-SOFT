@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-14T16:52:51.146Z",
+  "generatedAt": "2026-11-14T21:10:25.634Z",
   "type": "static-snapshot",
   "groups": {
     "indices": {
@@ -206,192 +206,7 @@
       ],
       "available": 18,
       "fresh": 18,
-      "updatedAt": "2026-11-14T16:52:51.426Z",
-      "source": "CNBC",
-      "status": "complete"
-    },
-    "sectors": {
-      "quotes": [
-        {
-          "id": "technology",
-          "name": "Tecnologia",
-          "symbol": "XLK",
-          "price": 170.28,
-          "change": -2.0084019105714557,
-          "previous": 173.77,
-          "time": 1794528000,
-          "currency": "",
-          "source": "CNBC"
-        },
-        {
-          "id": "finance",
-          "name": "Finanza",
-          "symbol": "XLF",
-          "price": 58.68,
-          "change": 0.8074214052568252,
-          "previous": 58.21,
-          "time": 1794528000,
-          "currency": "",
-          "source": "CNBC"
-        },
-        {
-          "id": "energy",
-          "name": "Energia",
-          "symbol": "XLE",
-          "price": 64.96,
-          "change": 0.9793253536452662,
-          "previous": 64.33,
-          "time": 1794528000,
-          "currency": "",
-          "source": "CNBC"
-        },
-        {
-          "id": "healthcare",
-          "name": "Sanità",
-          "symbol": "XLV",
-          "price": 188.85,
-          "change": 0.5430442421338277,
-          "previous": 187.83,
-          "time": 1794528000,
-          "currency": "",
-          "source": "CNBC"
-        },
-        {
-          "id": "industrial",
-          "name": "Industria",
-          "symbol": "XLI",
-          "price": 168.78,
-          "change": -0.38951841359773365,
-          "previous": 169.44,
-          "time": 1794528000,
-          "currency": "",
-          "source": "CNBC"
-        },
-        {
-          "id": "consumer",
-          "name": "Consumi discrezionali",
-          "symbol": "XLY",
-          "price": 119.98,
-          "change": -0.39847252199899375,
-          "previous": 120.46,
-          "time": 1794528000,
-          "currency": "",
-          "source": "CNBC"
-        },
-        {
-          "id": "staples",
-          "name": "Beni essenziali",
-          "symbol": "XLP",
-          "price": 92.35,
-          "change": 1.416648363716222,
-          "previous": 91.06,
-          "time": 1794528000,
-          "currency": "",
-          "source": "CNBC"
-        },
-        {
-          "id": "utilities",
-          "name": "Utilities",
-          "symbol": "XLU",
-          "price": 44.04,
-          "change": 0.5249942935402707,
-          "previous": 43.81,
-          "time": 1794528000,
-          "currency": "",
-          "source": "CNBC"
-        },
-        {
-          "id": "realestate",
-          "name": "Immobiliare",
-          "symbol": "XLRE",
-          "price": 44.37,
-          "change": 0.02254283137961277,
-          "previous": 44.36,
-          "time": 1794528000,
-          "currency": "",
-          "source": "CNBC"
-        },
-        {
-          "id": "materials",
-          "name": "Materiali",
-          "symbol": "XLB",
-          "price": 52.23,
-          "change": -0.21016431027895965,
-          "previous": 52.34,
-          "time": 1794528000,
-          "currency": "",
-          "source": "CNBC"
-        },
-        {
-          "id": "communications",
-          "name": "Comunicazioni",
-          "symbol": "XLC",
-          "price": 108.69,
-          "change": 1.0505764224618686,
-          "previous": 107.56,
-          "time": 1794528000,
-          "currency": "",
-          "source": "CNBC"
-        },
-        {
-          "id": "semis",
-          "name": "Semiconduttori",
-          "symbol": "SMH",
-          "price": 486.75,
-          "change": -2.98566958324199,
-          "previous": 501.73,
-          "time": 1794528000,
-          "currency": "",
-          "source": "CNBC"
-        },
-        {
-          "id": "biotech",
-          "name": "Biotecnologie",
-          "symbol": "XBI",
-          "price": 150.55,
-          "change": -0.42989417989416356,
-          "previous": 151.2,
-          "time": 1794528000,
-          "currency": "",
-          "source": "CNBC"
-        },
-        {
-          "id": "cleanenergy",
-          "name": "Energia pulita",
-          "symbol": "ICLN",
-          "price": 15.81,
-          "change": -0.5660377358490565,
-          "previous": 15.9,
-          "time": 1794528000,
-          "currency": "",
-          "source": "CNBC"
-        },
-        {
-          "id": "aerospace",
-          "name": "Difesa e aerospazio",
-          "symbol": "ITA",
-          "price": 71.51,
-          "change": -0.3067057019378261,
-          "previous": 71.73,
-          "time": 1794528000,
-          "currency": "",
-          "source": "CNBC"
-        },
-        {
-          "id": "banks",
-          "name": "Banche regionali",
-          "symbol": "KRE",
-          "price": 72.74,
-          "change": 0.30336458907886943,
-          "previous": 72.52,
-          "time": 1794528000,
-          "currency": "",
-          "source": "CNBC"
-        }
-      ],
-      "available": 16,
-      "fresh": 16,
-      "updatedAt": "2026-11-14T16:52:51.498Z",
+      "updatedAt": "2026-11-14T21:10:25.861Z",
       "source": "CNBC",
       "status": "complete"
     },
@@ -1027,7 +842,192 @@
       ],
       "available": 57,
       "fresh": 57,
-      "updatedAt": "2026-11-14T16:52:51.586Z",
+      "updatedAt": "2026-11-14T21:10:25.903Z",
+      "source": "CNBC",
+      "status": "complete"
+    },
+    "sectors": {
+      "quotes": [
+        {
+          "id": "technology",
+          "name": "Tecnologia",
+          "symbol": "XLK",
+          "price": 170.28,
+          "change": -2.0084019105714557,
+          "previous": 173.77,
+          "time": 1794528000,
+          "currency": "",
+          "source": "CNBC"
+        },
+        {
+          "id": "finance",
+          "name": "Finanza",
+          "symbol": "XLF",
+          "price": 58.68,
+          "change": 0.8074214052568252,
+          "previous": 58.21,
+          "time": 1794528000,
+          "currency": "",
+          "source": "CNBC"
+        },
+        {
+          "id": "energy",
+          "name": "Energia",
+          "symbol": "XLE",
+          "price": 64.96,
+          "change": 0.9793253536452662,
+          "previous": 64.33,
+          "time": 1794528000,
+          "currency": "",
+          "source": "CNBC"
+        },
+        {
+          "id": "healthcare",
+          "name": "Sanità",
+          "symbol": "XLV",
+          "price": 188.85,
+          "change": 0.5430442421338277,
+          "previous": 187.83,
+          "time": 1794528000,
+          "currency": "",
+          "source": "CNBC"
+        },
+        {
+          "id": "industrial",
+          "name": "Industria",
+          "symbol": "XLI",
+          "price": 168.78,
+          "change": -0.38951841359773365,
+          "previous": 169.44,
+          "time": 1794528000,
+          "currency": "",
+          "source": "CNBC"
+        },
+        {
+          "id": "consumer",
+          "name": "Consumi discrezionali",
+          "symbol": "XLY",
+          "price": 119.98,
+          "change": -0.39847252199899375,
+          "previous": 120.46,
+          "time": 1794528000,
+          "currency": "",
+          "source": "CNBC"
+        },
+        {
+          "id": "staples",
+          "name": "Beni essenziali",
+          "symbol": "XLP",
+          "price": 92.35,
+          "change": 1.416648363716222,
+          "previous": 91.06,
+          "time": 1794528000,
+          "currency": "",
+          "source": "CNBC"
+        },
+        {
+          "id": "utilities",
+          "name": "Utilities",
+          "symbol": "XLU",
+          "price": 44.04,
+          "change": 0.5249942935402707,
+          "previous": 43.81,
+          "time": 1794528000,
+          "currency": "",
+          "source": "CNBC"
+        },
+        {
+          "id": "realestate",
+          "name": "Immobiliare",
+          "symbol": "XLRE",
+          "price": 44.37,
+          "change": 0.02254283137961277,
+          "previous": 44.36,
+          "time": 1794528000,
+          "currency": "",
+          "source": "CNBC"
+        },
+        {
+          "id": "materials",
+          "name": "Materiali",
+          "symbol": "XLB",
+          "price": 52.23,
+          "change": -0.21016431027895965,
+          "previous": 52.34,
+          "time": 1794528000,
+          "currency": "",
+          "source": "CNBC"
+        },
+        {
+          "id": "communications",
+          "name": "Comunicazioni",
+          "symbol": "XLC",
+          "price": 108.69,
+          "change": 1.0505764224618686,
+          "previous": 107.56,
+          "time": 1794528000,
+          "currency": "",
+          "source": "CNBC"
+        },
+        {
+          "id": "semis",
+          "name": "Semiconduttori",
+          "symbol": "SMH",
+          "price": 486.75,
+          "change": -2.98566958324199,
+          "previous": 501.73,
+          "time": 1794528000,
+          "currency": "",
+          "source": "CNBC"
+        },
+        {
+          "id": "biotech",
+          "name": "Biotecnologie",
+          "symbol": "XBI",
+          "price": 150.55,
+          "change": -0.42989417989416356,
+          "previous": 151.2,
+          "time": 1794528000,
+          "currency": "",
+          "source": "CNBC"
+        },
+        {
+          "id": "cleanenergy",
+          "name": "Energia pulita",
+          "symbol": "ICLN",
+          "price": 15.81,
+          "change": -0.5660377358490565,
+          "previous": 15.9,
+          "time": 1794528000,
+          "currency": "",
+          "source": "CNBC"
+        },
+        {
+          "id": "aerospace",
+          "name": "Difesa e aerospazio",
+          "symbol": "ITA",
+          "price": 71.51,
+          "change": -0.3067057019378261,
+          "previous": 71.73,
+          "time": 1794528000,
+          "currency": "",
+          "source": "CNBC"
+        },
+        {
+          "id": "banks",
+          "name": "Banche regionali",
+          "symbol": "KRE",
+          "price": 72.74,
+          "change": 0.30336458907886943,
+          "previous": 72.52,
+          "time": 1794528000,
+          "currency": "",
+          "source": "CNBC"
+        }
+      ],
+      "available": 16,
+      "fresh": 16,
+      "updatedAt": "2026-11-14T21:10:25.918Z",
       "source": "CNBC",
       "status": "complete"
     },
@@ -1168,7 +1168,7 @@
       ],
       "available": 12,
       "fresh": 12,
-      "updatedAt": "2026-11-14T16:52:51.672Z",
+      "updatedAt": "2026-11-14T21:10:26.038Z",
       "source": "CNBC",
       "status": "complete"
     },
@@ -1309,7 +1309,7 @@
       ],
       "available": 12,
       "fresh": 12,
-      "updatedAt": "2026-11-14T16:52:51.676Z",
+      "updatedAt": "2026-11-14T21:10:26.049Z",
       "source": "CNBC",
       "status": "complete"
     },
@@ -1472,7 +1472,7 @@
       ],
       "available": 14,
       "fresh": 14,
-      "updatedAt": "2026-11-14T16:52:51.694Z",
+      "updatedAt": "2026-11-14T21:10:26.168Z",
       "source": "CNBC",
       "status": "complete"
     },
@@ -1624,7 +1624,7 @@
       ],
       "available": 13,
       "fresh": 13,
-      "updatedAt": "2026-11-14T16:52:51.784Z",
+      "updatedAt": "2026-11-14T21:10:26.295Z",
       "source": "CNBC",
       "status": "complete"
     }
